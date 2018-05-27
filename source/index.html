@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="de">
 
 <head>
 
@@ -12,21 +12,10 @@
     <link rel="stylesheet" href="/css/styles.css">
     <div id="fb-root">
     </div>
-    <script>
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
 
 </head>
 
 <body>
-    <!-- <div id="fb-root"></div>
     <script>
         (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
@@ -37,24 +26,26 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
--->
+
     <nav class="navbar sticky-top navbar-light navbar-expand-md bg-primary">
         <div class="container">
             <a class="navbar-brand" href="index.html">
+                <img src="/source/img/will make one" height="30" class="d-inline-block align-self-center" alt>
                 <b>FLinte</b>
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navStuff">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navStuff" aria-controls="navStuff" aria-expanded="false"
+                aria-label="Toggle-navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse align-left" id="navStuff">
+            <div class="collapse navbar-collapse justify-content-end" id="navStuff">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="/home.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Menu2</a>
+                        <a class="nav-link" href="/info.html">Über uns</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/kontakt.html">Kontakt</a>
@@ -62,57 +53,101 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Menu4</a>
                     </li>
+                </ul>
+                <ul class="navbar-nav">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">
                             Sprache
                         </a>
-                        <div class="dropdown-menu bg-transparent outline-none border-0 p-0" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item bg-transparent btn-group-vertical">
-                                <button type="button" class="btn btn-secondary" href="#">DE</button>
-
-                                <button type="button" class="btn btn-secondary" href="#">EN</button>
-
-
-                                <button type="button" class="btn btn-secondary" href="#">FR</button>
-                            </a>
+                        <div class="dropdown-menu bg-secondary outline-none border-0 p-0" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item bg-dark" href="#">Deutsch</a>
+                            <a class="dropdown-item bg-success" href="#">English</a>
+                            <a class="dropdown-item bg-light" href="#">Français</a>
                         </div>
                     </li>
                 </ul>
             </div>
-            <!--   <div class="nav-item dropdown">
-                    <div class="btn-group-vertical" role="group" aria-label="Language choice">
-                        <button type="button" class="btn btn-primary">DE</button>
-                        <button type="button" class="btn btn-primary">EN</button>
-                        <button type="button" class="btn btn-primary">FR</button>
-                    </div> -->
         </div>
     </nav>
-    <div class="container align-content-end pt-0 mt-0">
-        <div class="card p-0 m-0">
-            <img class="card-img" src="img/img432.jpg" alt="Top Pic">
-            <div class="card-img-overlay p-0 m-0">
-                <h1 class="display-4 font-italic">Wir nennen uns um!</h1>
-                <p class="lead my-3">Der jetztige Name existier seit den 70er Jahren. Es ist Zeit für was neues, es is Zeit für FLinte!</p>
-                <p class="lead mb-0">
-                    <a href="#" class="text-white font-weight-bold">maybe link the fb event</a>
-                </p>
-            </div>
-        </div>
-    </div>
+
+    <!-- <h1 class="display-4 font-italic">Wir nennen uns um!</h1> -->
+    <!-- <p class="lead my-3">Der jetztige Name existier seit den 70er Jahren. Es ist Zeit für was neues, es is Zeit für FLinte!</p> -->
+    <!-- <p class="lead mb-0"> -->
 
     <div class="container">
         <div class="row" id="head">
             <div class="col-lg-8 col-xl-9">
-                <div class="header">
-                    <h1>willkommen</h1>
-                </div>
+                <header class="header">
+                    <h1 class="display-4 d-none d-lg-block">willkommen large</h1>
+                    <h4 class="d-lg-none">willkommen different</h4>
+                </header>
             </div>
         </div>
         <div class="row" id="body">
-            <div class="col-lg-8 col-xl-9" id="main">
+            <div class="col-lg-8 col-xl-9" role="main">
+                <ul class="nav nav-tabs" id="politik" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pol1-tab" data-toggle="tab" href="#pol1" role="tab" aria-controls="pol1" aria-selected="true">
+                            <h5>(F*L*I*T*) Raum</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pol2-tab" data-toggle="tab" href="#pol2" role="tab" aria-controls="pol2" aria-selected="false">
+                            <h5>gegen Diskriminierungen</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pol3-tab" data-toggle="tab" href="#pol3" role="tab" aria-controls="pol3" aria-selected="false">
+                            <h5>ohne Boxen</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pol4-tab" data-toggle="tab" href="#pol4" role="tab" aria-controls="pol4" aria-selected="false">
+                            <h5>mit der Türpolitik...</h5>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="pol1" role="tabpanel" aria-labelledby="pol1-tab">
+                        <p class="card-text">Alle, die sich in der Beschreibung wiederfinden sind hier herzlich willkommen! F*L*I*T* leben alltäglich
+                            damit, diskriminiert zu werden. Diese gesellschaftlichen Verhältnisse wollen wir kritisieren.
+                            Es ist für uns eine politische Entscheidung Cis-Männer nicht ins f*c einzuladen. Cis-Männer sind
+                            Männer, die sich nicht als trans* verstehen. Wenn du dich als Cis-Mann identifizierst, verlasse
+                            den Raum bitte unaufgefordert!</p>
+                    </div>
+                    <div class="tab-pane fade" id="pol2" role="tabpanel" aria-labelledby="pol2-tab">
+                        <p class="card-text">F*L*I*T* Personen werden wegen ihres genders_Geschlechts oder ihrer Sexualität im Alltag diskriminiert.
+                            F*L*I*T* erfahren Benachteiligungen, Grenzüberschreitungen, Gewalt und Vorurteile. Auch in F*L*I*T*-Räumen
+                            wie dem f*c können wir diese Diskriminierungen leider nicht alle vor der Tür lassen. Trotzdem
+                            möchten wir in diesem Raum versuchen etwas anders zu machen. Wir wollen Normen von gender_Geschlecht
+                            und Sexualität überdenken und Unterdrückungsformen wie (Hetero-)Sexismus, Homophobie, Transphobie,
+                            Biphobie etc. kritisieren. Alle Menschen haben nicht nur eine gesellschaftliche Position. Wir
+                            haben zu unterschiedlichen Zeitpunkten und Orten unterschiedliche (Macht-)positionen. Ich kann
+                            etwa wegen meines genders_Geschlechts Gewalt erfahren und gleichzeitig von rassistischen Strukturen
+                            profitieren und_oder rassistisch handeln. Deshalb ist es notwendig rassistische Gewalt (auch)
+                            im f*c zu benennen und dagegen zu handeln. Das gilt auch für andere Diskriminierungsformen.</p>
+                    </div>
+                    <div class="tab-pane fade" id="pol3" role="tabpanel" aria-labelledby="pol3-tab">
+                        <p class="card-text">Die Bezeichnungen Lesbe* Inter* Trans* und Frau* sind für uns keine Boxen, die immer mit dem gleichen
+                            Inhalt gefüllt sein müssen. Denn wir füllen sie alle auf unsere eigene Art und können sie auch
+                            mal sprengen. Bei den Begriffen und der Einladungspolitik geht es uns um die Anerkennung der
+                            Eigendefinitionen von Menschen. Viele F*L*I*T*s müssen sich alltäglich gegen Zuschreibungen wehren,
+                            davon wollen wir im f*c möglichst wenig haben. Das f*c wird oft auch als Frauen*café bezeichnet.
+                            Vielleicht kommt es deshalb immer wieder zur Annahme, dass alle Personen im Raum als ‘Frauen’
+                            bezeichnet werden können. Das ist nicht so! Menschen verwenden unterschiedliche Selbstbezeichnungen.
+                            Personen zu fragen, ob sie als “er”, “sie” oder mit einem anderen Pronomen angesprochen werden
+                            wollen, ist cool und respektvoll. Fremdzuschreibungen können sehr verletzend sein.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="pol4" role="tabpanel" aria-labelledby="pol4-tab">
+                        <p class="card-text">
+                            {}
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4 col-xl-3 d-none d-lg-block align-self-start" id="fb">
+            <div class="col-lg-4 col-xl-3 d-none d-lg-block align-self-start" role="side">
                 <div class="fb-page" data-href="https://www.facebook.com/fc.feminista/" data-tabs="timeline, events" data-small-header="true"
                     data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
                     <blockquote cite="https://www.facebook.com/fc.feminista/" class="fb-xfbml-parse-ignore">
@@ -121,15 +156,19 @@
                 </div>
             </div>
         </div>
-        <div class="row align-content-center" id="footer">
-            <div class="col">
-                footer stuffs
-            </div>
-        </div>
 
-        <script src="/js/jquery.min.js"></script>
-        <script src="/js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">footer stuffs, like maybe an impressum or whatnot
+            </span>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
