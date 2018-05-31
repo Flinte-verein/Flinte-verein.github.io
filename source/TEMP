@@ -1,0 +1,113 @@
+<div class="card-deck justify-content-center">
+                    <div class="card bg-transparent border-1 mb-2" id="card-1">
+                        <div class="card-title bg-transparent text-center" id="top-1">
+                            <button class="btn btn-dark mb-0 text-light" data-toggle="collapse" data-target="#politik-1" aria-expanded="true" aria-controls="politik-1">
+                                <h5 class="pt-1">Der Raum</h5>
+                            </button>
+                        </div>
+
+                        <div id="politik-1" class="collapse" aria-labelledby="top-1" data-parent="accordion">
+                            <div class="card-body bg-transparent">
+                                <p>Der regelmäßigen Barbetrieb wird meist von Leuten aus dem flinte Kollektiv gemacht.
+                                </p>
+                                <p>Neben diesen wird der Raum von verschiedenen queeren und/oder feministischen Gruppen genutzt.
+                                    Das Kollektiv trifft sich zweimal im Monat zu Plena um organisatorische und inhaltliche
+                                    Fragen zu klären. Jeden 1. Donnerstag im Monat um 18.00 Uhr findet das Orga-Plenum statt.
+                                    Dazu sind alle Personen, die sich in der Einladungspolitik wiederfinden herzlich eingeladen,
+                                    ob du dich danach weiter im Kollektiv einbringen willst oder nicht.
+                                </p>
+                                <p>Falls du einen Raum für deine Gruppe oder als Einzelperson außerhalb der Baröffnungszeiten
+                                    brauchst, kannst du dich bei uns melden. </p>
+                                <p>Über die
+                                    <a href="kontakt.html">Eulenpost</a> kannst du jederzeit Kontakt mit uns aufnehmen.
+                                </p>
+                                <p>In der flinte gibt es keinen Konsumzwang. Wer hierher kommt, muss nichts von der Bar konsumieren
+                                    und kann gerne auch Mitgebrachtes trinken und essen. Für Getränke gibt es Spendenvorschläge.
+                                    Dennoch entscheidest du selbst, ob und wieviel du für Getränk von der Bar spenden willst
+                                    oder kannst.</p>
+                                <p>Leider ist der Raum für Rolli_benutzer_innen nicht barrierefrei. Für die hohe Türschwelle
+                                    gibt es eine Rampe, die bei Bedarf hinausgetragen wird. Neben der Eingangstür befindet
+                                    sich eine Glocke. Das Klo ist nicht mit einem Rollstuhl zugänglich. Im nahen 25hours
+                                    Hotel in der Lerchenfelderstraße, gibt es aber ein barrierefreies Klo das benutzt werden
+                                    kann.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-transparent border-1 mb-2" id="card-2">
+                        <div class="card-title bg-transparent text-center" id="top-2">
+                            <button class="btn btn-dark mb-0 text-light" data-toggle="collapse" data-target="#politik-2" aria-expanded="true" aria-controls="politik-2">
+                                <h5 class="pt-1">Einladungspolitik</h5>
+                            </button>
+                        </div>
+
+                        <div id="politik-2" class="collapse" aria-labelledby="top-2" data-parent="accordion">
+                            <div class="card-body bg-transparent">
+                                <p>Bei den verwendeten Begriffen und unserer Einladungspolitik geht es uns um die Anerkennung
+                                    von Menschen. Viele Menschen müssen sich alltäglich gegen Zuschreibungen wehren, davon
+                                    wollen wir in der flinte möglichst wenig haben.</p>
+                                <p>Die flinte wird immer noch oft als Frauen*café bezeichnet. Mit der offiziellen Namensänderung
+                                    hoffen wir weiter Abstand von der Vorstellung zu nehmen, alle Personen im Raum seien
+                                    Frauen oder könnten so bezeichnet werden. Das ist falsch. Die Einladungspolitik ist genauso
+                                    vielfältig wie die Menschen die den Raum besuchen und nutzen.</p>
+                                <p>Deshalb sehen wir unsere Einladungspolitik auch mehr als einen Versuch und kein abgeschlossenes
+                                    Idealkonzept. Sowohl die Kommunikation als auch die Umsetzung ist voller Widersprüche.
+                                    Wie wir Menschen sehen und sie einzuordnen haben wir über eine lang Zeit gelernt und
+                                    perfektioniert. Erlerntes abzulegen ist schwer. Menschen können aber nicht von Außen
+                                    definiert werden.</p>
+                                <p style="font-weight: bold">Deswegen möchten wir nicht, dass einzelne Personen an der Tür der flinte auf ihre Identität
+                                    angesprochen werden oder sie aus dem Raum verwiesen werden.</p>
+                                <p>Das Ansprechen von einzelnen Personen, die “nicht ins Bild passen”, kann ausschließend und
+                                    verletzend sein. Außerdem würde eine solche Praxis den strukturellen Ausschluss von Inter*
+                                    und Trans*personen verfestigen. Genau das wollen wir nicht.</p>
+                                <p>Wir wollen auch nicht, dass Leuten an der Tür gesagt wird, dass die flinte ein FINT- Raum
+                                    ist. Mit Plakaten, Türschildern und ähnlichem versuchen wir deutlich zu machen, dass
+                                    die flinte ein Raum für Frauen, Inter-, Non-Binary und Transpersonen ist und überlassen
+                                    es den Menschen selbst, ob sie sich darin wiederfinden. Die flinte ist stark genug um
+                                    auch einen versehentlich hier gelandeten dyacis Mann, eine zeitlang im Raum zu haben.
+                                    Wir wollen versuchen verschiedene Lebensrealitäten zu verstehen und daraus einen respektvollen
+                                    Umgang miteinander entwickeln</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-transparent border-1 mb-2" id="card-3">
+                        <div class="card-title bg-transparent text-center" id="top-3">
+                            <button class="btn btn-dark mb-0 text-light" data-toggle="collapse" data-target="#politik-3" aria-expanded="true" aria-controls="politik-3">
+                                <h5 class="pt-1">wie du kein TODESSER bist</h5>
+                            </button>
+                        </div>
+
+                        <div id="politik-3" class="collapse" aria-labelledby="top-1" data-parent="accordion">
+                            <div class="card-body bg-transparent">
+                                <p>Alle, die hier sind, gestalten den Raum mit. Respektvolles Verhalten ist eine wichtige Basis
+                                    für den Raum.
+                                </p>
+                                <p>Glaub nicht, dass du eine Person kennst, aufgrund dessen, wie sie redet, aussieht oder du
+                                    sie wahrnimmst. Menschen verwenden unterschiedliche Selbstbezeichnungen. Personen zu
+                                    fragen, ob sie als “er”, “sie” oder mit einem anderen Pronomen angesprochen werden wollen,
+                                    ist respektvoll. Fremdzuschreibungen können verletzend sein. Manchmal ist es besser,
+                                    erst mal zuzuhören oder die Person selbst zu fragen.
+                                </p>
+                                <p>Die Leute hinter der Bar sind als Ansprechpersonen da. Wenn sich jemand dir gegenüber grenzüberschreitend,
+                                    verletzend oder unangenehm verhält, kannst du dir Unterstützung von ihnen holen. Greif
+                                    ein oder sag bitte bescheid, wenn du mitbekommst, dass sich jemand gegenüber jemand anderem
+                                    so verhält.
+                                </p>
+                                <lead>Still not LOVEing</lead>
+                                <ul style="list-style-type: none" class="text-uppercase">
+                                    <li>Rassismus</li>
+                                    <li>Transfeindlichkeit</li>
+                                    <li>ANTISEMITISMUS</li>
+                                    <li>ANTIROMAISMUS</li>
+                                    <li>(CIS-)SEXISMUS</li>
+                                    <li>MISOGYNIE</li>
+                                    <li>HOMOFEINDLICHKEIT</li>
+                                    <li>ABLEISMUS</li>
+                                    <li>BIFEINDLICHKEIT</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
